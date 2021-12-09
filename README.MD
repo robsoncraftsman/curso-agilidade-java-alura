@@ -16,10 +16,4 @@ Link para o curso: https://www.alura.com.br/curso-online-agilidade-devops-desenv
 
 # Para Rodar
 
-```
-mvn clean package
-
-docker image build -t clines-api .
-
-docker container run --name clines-api -d -p 8080:8080  clines-api
-```
+- make package build-image container-run 
